@@ -29,8 +29,8 @@ body {
     grid-template-columns: 100px 100px 100px;
     grid-template-rows: 100px 100px 100px;
     grid-row-gap: 33px;
-    justify-content: space-evenly;
-    padding-top: 33px;
+    grid-column-gap: 33px;
+    padding: 33px 0 0 33px;
     height: 399px;
     width: 399px;
 }
@@ -38,6 +38,7 @@ body {
 .card {
     transform-style: preserve-3d;
     transition: transform 1.5s ease;
+    height: 100px;
 }
 
 .card:hover {
